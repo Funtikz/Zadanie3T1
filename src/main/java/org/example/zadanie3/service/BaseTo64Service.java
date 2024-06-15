@@ -37,7 +37,6 @@ public class BaseTo64Service {
             encoded.append('=');
         }
 
-        String result = encoded.toString();
-        return result;
+        return encoded.toString();
     }
 }
